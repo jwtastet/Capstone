@@ -1,0 +1,1 @@
+render partial: "prescription.json.jb", locals: { prescription: @prescription }

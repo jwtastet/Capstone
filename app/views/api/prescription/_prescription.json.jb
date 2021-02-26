@@ -1,0 +1,9 @@
+{
+  id: prescription.id,
+  mood_id: prescription.mood_id,
+  beverage_type_id: prescription.beverage_type_id,
+  taste1_id: prescription.taste1_id,
+  taste2_id: prescription.taste2_id,
+  flavor_id: prescription.flavor_id,
+  beverage_id: prescription.beverage_id,
+}

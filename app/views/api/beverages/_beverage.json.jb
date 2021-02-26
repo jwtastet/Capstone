@@ -1,0 +1,7 @@
+{
+  id: beverage.id,
+  name: beverage.name,
+  ingredients: beverage.ingredients,
+  description: beverage.description,
+  image_url: beverage.image_url,
+}

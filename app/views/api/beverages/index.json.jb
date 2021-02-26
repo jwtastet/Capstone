@@ -1,0 +1,4 @@
+json = @beverages.map do |beverage|
+  render partial: "beverage.json.jb", locals: { beverage: beverage }
+end
+return json

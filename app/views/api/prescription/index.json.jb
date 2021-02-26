@@ -1,0 +1,4 @@
+json = @prescriptions.map do |prescription|
+  render partial: "prescription.json.jb", locals: { prescription: prescription }
+end
+return json

@@ -1,3 +1,4 @@
 class TasteFlavor < ApplicationRecord
-  belongs_to :taste, :flavor
+  belongs_to :taste
+  belongs_to :flavor
 end
