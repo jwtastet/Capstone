@@ -1,0 +1,4 @@
+{
+  id: taste.id,
+  name: taste.name,
+}

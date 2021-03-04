@@ -1,0 +1,3 @@
+json = @tastes.map do |taste|
+  render partial: "tastes.json.jb", locals: { taste: taste }
+end
