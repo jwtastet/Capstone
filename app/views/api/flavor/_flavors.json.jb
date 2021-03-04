@@ -1,0 +1,4 @@
+{
+  id: flavor.id,
+  name: flavor.name,
+}
