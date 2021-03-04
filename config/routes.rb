@@ -9,5 +9,7 @@ Rails.application.routes.draw do
 
     get "/beverages" => "beverages#index"
     get "/beverages/:id" => "beverages#show"
+
+    get "/beverageTypes" => "beverage_type#index"
   end
 end

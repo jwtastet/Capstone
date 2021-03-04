@@ -1,0 +1,4 @@
+{
+  id: beverage_type.id,
+  name: beverage_type.name,
+}
