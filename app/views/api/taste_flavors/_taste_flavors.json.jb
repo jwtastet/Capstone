@@ -1,0 +1,5 @@
+{
+  id: taste_flavor.id,
+  taste_id: taste_flavor.taste_id,
+  flavor_id: taste_flavor.flavor_id,
+}

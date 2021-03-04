@@ -11,5 +11,7 @@ Rails.application.routes.draw do
     get "/beverages/:id" => "beverages#show"
 
     get "/beverageTypes" => "beverage_type#index"
+
+    get "/tasteFlavors" => "taste_flavors#index"
   end
 end
