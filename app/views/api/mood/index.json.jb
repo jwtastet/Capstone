@@ -1,0 +1,3 @@
+json = @moods.map do |mood|
+  render partial: "moods.json.jb", locals: { mood: mood }
+end

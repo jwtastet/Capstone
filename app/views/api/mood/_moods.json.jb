@@ -1,0 +1,4 @@
+{
+  id: mood.id,
+  name: mood.name,
+}
