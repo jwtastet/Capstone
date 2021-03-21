@@ -1,4 +1,4 @@
-class Api::SavedBeveragesController < ApplicationController
+class Api::SavedBeverageController < ApplicationController
   before_action :authenticate_user
 
   def index
