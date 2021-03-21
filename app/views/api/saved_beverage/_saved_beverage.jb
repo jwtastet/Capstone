@@ -1,0 +1,5 @@
+{
+  id: saved_beverage.id,
+  user_id: saved_beverage.user_id,
+  bewverage_id: saved_beverage.beverage_id,
+}

@@ -18,6 +18,14 @@ Rails.application.routes.draw do
 
     get "/flavors" => "flavor#index"
 
-    get"/tastes" => "taste#index"
+    get "/tastes" => "taste#index"
+
+    post "/users" => "users#create"
+
+    post "/sessions" => "sessions#create"
+
+    get "/saved_beverages" => "saved_beverage#index"
+    post "/saved_beverages" => "saved_beverage#create"
+    delete "/saved_beverages" => "saved_beverage#destroy"
   end
 end
