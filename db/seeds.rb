@@ -60,3 +60,6 @@ Prescription.create!({ mood_id: 3, beverage_type_id: 2, taste1_id: 1, taste2_id:
 Prescription.create!({ mood_id: 3, beverage_type_id: 2, taste1_id: 3, taste2_id: 2, flavor_id: 9, beverage_id: 7 })
 Prescription.create!({ mood_id: 3, beverage_type_id: 2, taste1_id: 1, taste2_id: 4, flavor_id: 4, beverage_id: 8 })
 Prescription.create!({ mood_id: 1, beverage_type_id: 3, taste1_id: 6, taste2_id: 1, flavor_id: 3, beverage_id: 4 })
+SavedBeverage.create!({ user_id: 1, beverage_id: 1 })
+SavedBeverage.create!({ user_id: 1, beverage_id: 2 })
+SavedBeverage.create!({ user_id: 1, beverage_id: 3 })
