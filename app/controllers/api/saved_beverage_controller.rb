@@ -1,6 +1,4 @@
 class Api::SavedBeverageController < ApplicationController
-  before_action :authenticate_user
-
   def index
     @saved_beverages = SavedBeverage.All
 
