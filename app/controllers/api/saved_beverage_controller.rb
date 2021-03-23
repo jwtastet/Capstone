@@ -1,6 +1,6 @@
 class Api::SavedBeverageController < ApplicationController
   def index
-    @saved_beverages = SavedBeverage.All
+    @saved_beverages = SavedBeverage.all
 
     if params[:user_id]
       @saved_beverages = @saved_beverages.where(user_id: current_user.id)
